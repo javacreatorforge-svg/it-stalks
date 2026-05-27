@@ -1,0 +1,22 @@
+{
+  "hollow_stalking": {
+    "category": "hostile",
+    "subtitle": "subtitle.it_stalks.stalking",
+    "sounds": [{"name": "it_stalks:stalking", "stream": false}]
+  },
+  "hollow_chase_theme": {
+    "category": "hostile",
+    "subtitle": "subtitle.it_stalks.chase_theme",
+    "sounds": [{"name": "it_stalks:chase_theme", "stream": true}]
+  },
+  "hollow_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitle.it_stalks.hurt",
+    "sounds": [{"name": "it_stalks:hurt", "stream": false}]
+  },
+  "hollow_death": {
+    "category": "hostile",
+    "subtitle": "subtitle.it_stalks.death",
+    "sounds": [{"name": "it_stalks:death", "stream": false}]
+  }
+}

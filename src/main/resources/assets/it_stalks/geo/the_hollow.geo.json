@@ -1,0 +1,70 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.it_stalks:the_hollow",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [-1, 0, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "Leg",
+					"parent": "Body",
+					"pivot": [-0.5, 21, 0],
+					"cubes": [
+						{"origin": [-1.5, 0.95638, -0.00095], "size": [2, 20, 2], "uv": [16, 30]}
+					]
+				},
+				{
+					"name": "Leg2",
+					"parent": "Body",
+					"pivot": [-3.5, 20, 0],
+					"cubes": [
+						{"origin": [-4.5, 0, -1], "size": [2, 20, 2], "uv": [24, 30]}
+					]
+				},
+				{
+					"name": "Torso",
+					"parent": "Body",
+					"pivot": [-1, 20, 0],
+					"cubes": [
+						{"origin": [-5.5, 20, -2], "size": [7, 12, 4], "uv": [8, 0]}
+					]
+				},
+				{
+					"name": "Arm2",
+					"parent": "Torso",
+					"pivot": [-6.5, 32, 0],
+					"cubes": [
+						{"origin": [-7.5, 6, -1], "size": [2, 26, 2], "uv": [8, 16]}
+					]
+				},
+				{
+					"name": "Arm",
+					"parent": "Torso",
+					"pivot": [2.5, 32, 0],
+					"cubes": [
+						{"origin": [1.5, 3, -1], "size": [2, 29, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Torso",
+					"pivot": [-2, 32, 0],
+					"cubes": [
+						{"origin": [-4.5, 32, -3], "size": [5, 8, 6], "uv": [16, 16]}
+					]
+				}
+			]
+		}
+	]
+}
